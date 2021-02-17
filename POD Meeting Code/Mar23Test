@@ -1,0 +1,28 @@
+class Apartment
+
+attr_accessor :location, :sq_footage, :kittens
+
+  def initialize(location, sq_footage)
+    @location, @sq_footage = location, sq_footage
+    @kittens = []
+  end 
+end 
+
+class Kitten
+
+attr_accessor :name, :color, :breed, :apartment
+
+  def initialize(name, color, breed, apartment)
+    @name = name  
+    @color = color
+    @breed = breed
+    @apartment = apartment
+    self.partment.kittens << self
+  end
+  
+  def 
+end
+
+a1 = Apartment.new("123 Main St.", 2500)
+a2
+k1 = Kitten.new("Catface", "black", "tabby", a1)
